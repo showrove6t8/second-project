@@ -2,13 +2,28 @@
     nav{
         flex-direction: column;
     }
+    .nav-text-container{
+        flex-direction: column;
+    }
     .nav-cntainer{
         flex-direction: column;
     }
     .nav-img{
         flex-direction: column;
     }
-    .nav-text-container{
+    .container{
         flex-direction: column;
     }
+    .main-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .main-container-img{
+        flex-direction: column;
+        
+    }
+    .main-container img{
+        width: 100%;
+    }
+
 }
