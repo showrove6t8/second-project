@@ -1,0 +1,14 @@
+@media screen and (max-width: 425px) {
+    nav{
+        flex-direction: column;
+    }
+    .nav-cntainer{
+        flex-direction: column;
+    }
+    .nav-img{
+        flex-direction: column;
+    }
+    .nav-text-container{
+        flex-direction: column;
+    }
+}
