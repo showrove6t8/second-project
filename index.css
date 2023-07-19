@@ -2,13 +2,16 @@
     margin: 0;
     padding: 0;
 }
-
+nav{
+  padding: 30px;
+}
 .nav-cntainer{
     display: flex;
 gap: 15px;
+
 }
 .nav-img{
-    padding-top: 40px;
+  
 }
 .nav-cntainer h1{
     font-size: 40px;
@@ -100,6 +103,9 @@ main{
   
     width: 100px;
 }
+.padiing-to{
+    padding-top: 50px;
+}
 .container{
     width: 1200px; 
     display: flex;
@@ -161,12 +167,75 @@ main{
     padding-bottom: 10px;
 }
 .second-sec-text{
+    padding-bottom: 350px;
 position: relative;
 }
 .sec-third-img{
 top: 50%;
 right: 50%;
 transform: translate(-20%,-70%);
+}
+.third-sec-con{
+    display: flex;
+    align-items: center;
+  border-radius: 15px;
+    border: 1px solid gray;
+    width: 200px;
+    padding: 10 0px ;
+    
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+   text-decoration: none;
+   padding-top: 20px;
+}
+
+.nav-cntainer-six{
+padding: 20px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+footer{
+    background-color: black;
+    height: 400px;
+}
+.btn-none{
+    color: white;
+}
+.footer-container-two{
+ margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.btn-done{
+    color: gray;
+}
+.footer-sec-last{
+    border-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.footer-last{
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
 }
 
 
