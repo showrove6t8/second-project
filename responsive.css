@@ -25,5 +25,13 @@
     .main-container img{
         width: 100%;
     }
-
+    .section-container{
+        flex-direction: column;
+    }
+   .section-container-two{
+    flex-direction: column;
+   }
+   
+    
+   
 }
